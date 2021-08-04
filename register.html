@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+      height: 100vh;
+      margin: 0;
+      background-color: #2980B9;
+    }
+
+    .navbar img {
+      width: 130px;
+      height: 90px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header--topbar"></div>
+    <nav class="navbar">
+      <div class="navbar__content">
+        <img src="./assets/img/LogoRetroRidesWhite.png" alt="Logo">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./register.html">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- form -->
+  <section class="register">
+    <div class="register__content">
+      <h2>Register</h2>
+      <form action="">
+        <input class="input__register" type="text" placeholder="Name">
+        <br>
+        <input class="input__register" type="text" placeholder="Nickname">
+        <br>
+        <input class="input__register" type="email" placeholder="Email">
+        <br>
+        <input class="input__register" type="password" placeholder="Password" minlength="5" maxlength="10">
+        <br>
+        <input class="input__register" type="number" placeholder="Phone Number" minlength="7" maxlength="10">
+        <br>
+        <input class="input__register" type="text" placeholder="Address">
+        <br>
+        <label for="">Date of Birth</label>
+        <input class="input__register" type="date" placeholder="Date of Birth">
+        <br>
+        <label for="">Upload profile picture</label>
+        <input type="file" name="" id="" placeholder="">
+        <br>
+        <label for="">Do you have a bicycle?</label>
+        <select name="" id="">
+          <option value=""></option>
+          <option value="">Yes</option>
+          <option value="">No</option>
+        </select>
+        <br>
+        <button type="submit" value="send" class="btn-register">Register</button>
+      </form>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="footer-content">
+      <h3>Follow us:</h3>
+      <div class="footer-content__socialmedia">
+        <a href="https://www.instagram.com/"><img src="./assets/icons/instagram (3).png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/Karenmgm"><img src="./assets/icons/facebook (2).png" alt="Facebook"></a>
+        <a href="https://twitter.com/home"><img src="./assets/icons/twitter (2).png" alt="Twitter"></a>
+        <a href="https://github.com/KarenG1984"><img src="./assets/icons/github.png" alt="GitHub"></a>
+      </div>
+    </div>
+    <p>© Copyright 2021. Karen Gómez <br> Diseño web Karen Gómez</p>
+  </footer>
+</body>
+
+</html>
